@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-const SUPABASE_FUNCTIONS_URL = "https://qrrziayuzfdfvkptywgt.supabase.co";
+const SUPABASE_FUNCTIONS_URL = process.env.VITE_SUPABASE_URL || "http://127.0.0.1:54321";
 
 // The development proxy mirrors the /api routing configured for Vercel.
 export default defineConfig({
