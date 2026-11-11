@@ -1,7 +1,7 @@
 
 # This file was generated with Supabase CLI
 
-project_id = "qrrziayuzfdfvkptywgt"
+project_id = "sizu-local"
 
 [api]
 port = 54321
@@ -27,7 +27,6 @@ file_size_limit = "50MiB"
 site_url = "https://sizuportal.org"
 additional_redirect_urls = [
   "https://sizuportal.org/reset-password",
-  "https://sizu.lovable.app/reset-password",
   "http://localhost:8080/reset-password"
 ]
 jwt_expiry = 3600
