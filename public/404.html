@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Social Impact Zone Uganda</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 520px;
+      background-color: white;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+    .logo {
+      margin-bottom: 24px;
+      max-width: 120px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #4b5563;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #c71f37;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: 500;
+      text-decoration: none;
+      margin-top: 8px;
+      transition: background-color 0.2s;
+    }
+    .btn:hover {
+      background-color: #a71a2e;
+    }
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 16px;
+      color: #f59e0b;
+    }
+    .redirect {
+      font-size: 14px;
+      color: #6b7280;
+      margin-top: 32px;
+    }
+  </style>
+  
+  <script>
+    // This script will redirect to the React app after a short delay
+    window.onload = function() {
+      // Save the attempted URL
+      var path = window.location.pathname;
+      
+      // Redirect to the home page after 3 seconds
+      setTimeout(function() {
+        // Store the path for potential use after redirect
+        window.sessionStorage.setItem('attempted_path', path);
+        window.location.href = '/';
+      }, 3000);
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img src="/lovable-uploads/ad37533c-3b0b-4cc2-8e12-2ba0ad490d94.png" alt="SIZU Logo" class="logo">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+    </svg>
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for doesn't exist or has been moved.</p>
+    <a href="/" class="btn">Back to Home</a>
+    <p class="redirect">You'll be automatically redirected to the home page in 3 seconds...</p>
+  </div>
+</body>
+</html>

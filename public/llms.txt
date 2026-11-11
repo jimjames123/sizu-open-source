@@ -1,0 +1,15 @@
+# SIZU — Social Impact Zone Uganda
+
+> SIZU is a Ugandan platform connecting impact-driven organizations, projects, and events to drive sustainable development.
+
+## Pages
+
+- [Home](/): Discover featured impact projects and organizations.
+- [About](/about): Mission, vision, and the story behind SIZU.
+- [Contact](/contact): Reach the SIZU team.
+- [Projects](/projects): Browse and search impact projects across Uganda.
+- [Organizations](/organizations): Directory of registered impact organizations.
+- [Events](/events): Upcoming events and the Market Place.
+- [Register](/register): Create an organization account to post projects.
+- [Login](/login): Sign in to manage your projects.
+- [Terms](/terms): Terms and conditions of use.

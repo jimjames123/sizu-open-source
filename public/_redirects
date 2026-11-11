@@ -1,0 +1,3 @@
+/api/*        https://qrrziayuzfdfvkptywgt.supabase.co/functions/v1/:splat   200
+/index.html   /                                                              301
+/*            /index.html                                                    200
