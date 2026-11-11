@@ -1,0 +1,20 @@
+
+{
+  "name": "Social Impact Zone Uganda",
+  "short_name": "SIZU",
+  "icons": [
+    {
+      "src": "/lovable-uploads/ad37533c-3b0b-4cc2-8e12-2ba0ad490d94.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/lovable-uploads/ad37533c-3b0b-4cc2-8e12-2ba0ad490d94.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
