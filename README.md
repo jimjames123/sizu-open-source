@@ -26,6 +26,10 @@ Some workflows may require administrator access or additional configuration. Fea
 - **Source control:** Git and GitHub
 - **Deployment:** Vercel (other static hosting platforms can also be configured)
 
+## Public source snapshot
+
+This repository is a clean-history public source snapshot for independent review, including the frontend, FemTech functionality, Supabase Edge Functions, and database migrations. It does not contain live production data, credentials, or the private repository's commit history. Some binary brand/media assets are not included; replace missing assets when building your own deployment. A working Supabase instance must be configured separately.
+
 ## Getting started
 
 ### Prerequisites
@@ -36,8 +40,8 @@ Some workflows may require administrator access or additional configuration. Fea
 ### Local development
 
 ```bash
-git clone https://github.com/jimjames123/sizu-958f0800.git
-cd sizu-958f0800
+git clone https://github.com/jimjames123/sizu-open-source.git
+cd sizu-open-source
 npm install
 cp .env.example .env
 npm run dev
@@ -82,7 +86,7 @@ FemTech features support discovery and management of projects addressing women's
 
 ## Contributing and licensing
 
-Contributions and issues can be discussed through GitHub. **No open-source license is granted by this README alone.** A license must be selected and added before the project is represented as licensed open source.
+The source code is provided under the [MIT License](LICENSE). SIZU names, logos, and official branding are addressed separately in [BRANDING.md](BRANDING.md). Contributions and issues can be discussed through GitHub.
 
 ## Maintainer
 
